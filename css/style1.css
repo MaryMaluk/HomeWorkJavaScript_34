@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+    font-family:'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-color: #87CEFA;
+}
+
+.container{
+	margin: 0 auto;
+	background-color: #fff;	
+	border: 2px solid #483D8B;
+	width:877px;
+	height:777px;
+}
+.title{
+	font: 35px "Helvetica Neue", sans-serif;	
+	text-align: center;
+	letter-spacing: 2px;
+	margin:30px 0px;
+	
+}
+
+.question, .question1, .question2, .question3{
+	font: 20px "Helvetica Neue", sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:100px;
+	margin-bottom:37px;
+	list-style: none;
+}
+
+.answer {
+	font: 17px "Helvetica Neue", sans-serif;
+	display: block;
+	padding: 4px 10px;
+	margin-left:12px;
+	font-style:normal;
+    font-weight:100;
+}
+.button{
+	height:70px;
+	width:470px;
+	font-size:30px;
+	margin-left:200px;
+    background: #00CED1;
+	border-radius: 5px;
+	
+}
